@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\univer\\Web\\Kravets.Univercity.RemoteWorkProductivityTracker.Web\\Kravets.University.RemoteWorkProductivityTracker\\RemoteWorkProductivityTracker\\RemoteWorkProductivityTracker\\RemoteWorkProductivityTracker.csproj": {}
+    "E:\\univer\\Web\\Kravets.Univercity.RemoteWorkProductivityTracker.Web\\RemoteWorkProductivityTracker\\RemoteWorkProductivityTracker\\RemoteWorkProductivityTracker.csproj": {}
   },
   "projects": {
-    "E:\\univer\\Web\\Kravets.Univercity.RemoteWorkProductivityTracker.Web\\Kravets.University.RemoteWorkProductivityTracker\\RemoteWorkProductivityTracker\\RemoteWorkProductivityTracker\\RemoteWorkProductivityTracker.csproj": {
+    "E:\\univer\\Web\\Kravets.Univercity.RemoteWorkProductivityTracker.Web\\RemoteWorkProductivityTracker\\RemoteWorkProductivityTracker\\RemoteWorkProductivityTracker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\univer\\Web\\Kravets.Univercity.RemoteWorkProductivityTracker.Web\\Kravets.University.RemoteWorkProductivityTracker\\RemoteWorkProductivityTracker\\RemoteWorkProductivityTracker\\RemoteWorkProductivityTracker.csproj",
+        "projectUniqueName": "E:\\univer\\Web\\Kravets.Univercity.RemoteWorkProductivityTracker.Web\\RemoteWorkProductivityTracker\\RemoteWorkProductivityTracker\\RemoteWorkProductivityTracker.csproj",
         "projectName": "RemoteWorkProductivityTracker",
-        "projectPath": "E:\\univer\\Web\\Kravets.Univercity.RemoteWorkProductivityTracker.Web\\Kravets.University.RemoteWorkProductivityTracker\\RemoteWorkProductivityTracker\\RemoteWorkProductivityTracker\\RemoteWorkProductivityTracker.csproj",
+        "projectPath": "E:\\univer\\Web\\Kravets.Univercity.RemoteWorkProductivityTracker.Web\\RemoteWorkProductivityTracker\\RemoteWorkProductivityTracker\\RemoteWorkProductivityTracker.csproj",
         "packagesPath": "C:\\Users\\krave\\.nuget\\packages\\",
-        "outputPath": "E:\\univer\\Web\\Kravets.Univercity.RemoteWorkProductivityTracker.Web\\Kravets.University.RemoteWorkProductivityTracker\\RemoteWorkProductivityTracker\\RemoteWorkProductivityTracker\\obj\\",
+        "outputPath": "E:\\univer\\Web\\Kravets.Univercity.RemoteWorkProductivityTracker.Web\\RemoteWorkProductivityTracker\\RemoteWorkProductivityTracker\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\krave\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,6 +44,38 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.Google": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

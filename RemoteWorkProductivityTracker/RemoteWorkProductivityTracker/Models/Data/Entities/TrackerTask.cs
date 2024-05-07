@@ -1,4 +1,4 @@
-﻿namespace RemoteWorkProductivityTracker.Models
+﻿namespace RemoteWorkProductivityTracker.Models.Data.Entities
 {
     public class TrackerTask
     {
@@ -6,6 +6,6 @@
         private string Title { get; set; }
         private string Description { get; set; }
         private bool Compleate { get; set; }
-
+        private List<User> Users { get; set; }
     }
 }
