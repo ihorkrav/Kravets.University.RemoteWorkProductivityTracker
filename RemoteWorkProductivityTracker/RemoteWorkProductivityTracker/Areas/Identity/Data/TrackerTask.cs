@@ -1,4 +1,6 @@
-﻿namespace RemoteWorkProductivityTracker.Models.Data.Entities
+﻿using RemoteWorkProductivityTracker.Models.Data.Entities;
+
+namespace RemoteWorkProductivityTracker.Areas.Identity.Data
 {
     public class TrackerTask
     {
