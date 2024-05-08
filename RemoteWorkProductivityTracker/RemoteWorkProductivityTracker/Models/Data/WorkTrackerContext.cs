@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore;
+using RemoteWorkProductivityTracker.Areas.Identity.Data;
 using RemoteWorkProductivityTracker.Models.Data.Entities;
 
 namespace RemoteWorkProductivityTracker.Models.Data
