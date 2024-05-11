@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fOXeUaY9mkH2yPKF+MRCwf1M8a3swtwvWzaHHJk8Pnk=",
+  "Hash": "ohz4m5FrClQ392C6u2I2rEeywzkQC+3Efnu26SwKXNk=",
   "Source": "RemoteWorkProductivityTracker",
   "BasePath": "_content/RemoteWorkProductivityTracker",
   "Mode": "Default",
@@ -1231,6 +1231,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "E:\\univer\\Web\\Kravets.Univercity.RemoteWorkProductivityTracker.Web\\RemoteWorkProductivityTracker\\RemoteWorkProductivityTracker\\wwwroot\\images\\plus.png",
+      "SourceId": "RemoteWorkProductivityTracker",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\univer\\Web\\Kravets.Univercity.RemoteWorkProductivityTracker.Web\\RemoteWorkProductivityTracker\\RemoteWorkProductivityTracker\\wwwroot\\",
+      "BasePath": "_content/RemoteWorkProductivityTracker",
+      "RelativePath": "images/plus.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\plus.png"
     },
     {
       "Identity": "E:\\univer\\Web\\Kravets.Univercity.RemoteWorkProductivityTracker.Web\\RemoteWorkProductivityTracker\\RemoteWorkProductivityTracker\\wwwroot\\js\\site.js",

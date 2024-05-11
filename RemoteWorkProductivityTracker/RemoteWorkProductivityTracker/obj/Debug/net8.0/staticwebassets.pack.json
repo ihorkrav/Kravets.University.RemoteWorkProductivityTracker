@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "E:\\univer\\Web\\Kravets.Univercity.RemoteWorkProductivityTracker.Web\\RemoteWorkProductivityTracker\\RemoteWorkProductivityTracker\\wwwroot\\images\\plus.png",
+      "PackagePath": "staticwebassets\\images\\plus.png"
+    },
+    {
       "Id": "E:\\univer\\Web\\Kravets.Univercity.RemoteWorkProductivityTracker.Web\\RemoteWorkProductivityTracker\\RemoteWorkProductivityTracker\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
