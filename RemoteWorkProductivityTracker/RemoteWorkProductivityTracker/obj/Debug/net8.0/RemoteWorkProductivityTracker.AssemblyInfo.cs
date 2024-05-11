@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RemoteWorkProductivityTracker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4816d9e52ae85fb23c18654cc164d0c5db80453d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0df822d036095ddae2e2911cf79fa46f7a9b1cea")]
 [assembly: System.Reflection.AssemblyProductAttribute("RemoteWorkProductivityTracker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RemoteWorkProductivityTracker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
