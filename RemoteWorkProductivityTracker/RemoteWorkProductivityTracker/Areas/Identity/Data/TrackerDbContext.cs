@@ -21,4 +21,5 @@ public class TrackerDbContext : IdentityDbContext<ApplicationUser>
     }
     DbSet<ApplicationUser> Users;
     DbSet<TrackerTask> Tasks;
+    DbSet<Sections> Sections;
 }

@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("RemoteWorkProductivityTracker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e6f8a8bc9b73885bdba5dcc7f5fdddecdc41fed1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cdd425a8e787b622f033e18d9c02373a726ff872")]
 [assembly: System.Reflection.AssemblyProductAttribute("RemoteWorkProductivityTracker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RemoteWorkProductivityTracker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

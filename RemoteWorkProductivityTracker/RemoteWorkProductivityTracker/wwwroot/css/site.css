@@ -26,3 +26,17 @@ body {
     top: 58px;
     left: 0;
 }
+.bg-gray {
+    background-color: rgb(211,211,211);
+}
+
+.dropdown-menu-content {
+    display: none;
+    position: absolute;
+}
+.dropdownbtn{
+    background-color:none;
+}
+.dropdownbtn:active .dropdown-menu-content{
+    display:block
+}

@@ -9,5 +9,6 @@ namespace RemoteWorkProductivityTracker.Areas.Identity.Data
         private string Description { get; set; }
         private bool Compleate { get; set; }
         private List<User> Users { get; set; }
+        private List<TrackerTask>? SubTasks { get; set; } //ptional subtask addition
     }
 }
