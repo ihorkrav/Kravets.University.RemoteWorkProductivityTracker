@@ -89,12 +89,18 @@
                 </div>
             </div>
         </div>
+
+        <div id="mySidebar" class="sidebar">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+          <p id="inner_side_bar_text" ></p>
+        </div>
+
         <div class="card center" style="width:70vw; height:50px;">
             <div class="card-body ">
                 <input class="flex item-center" type="checkbox" id="scales" name="scales" style="display:inline-block" />
-                <div class="overflow-hidden" style="width:30vw;height:30px;display:inline-block">
-                    This is some text within a card body.wery looooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooong task
-                </div>
+                <button class="overflow-hidden openfull" onclick="openNav(this.querySelector('#inner_task_text').innerText)" style="width:30vw;height:30px;display:inline-block; background:none; border:none;" value="This is some text within a card body.wery  tasklooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooong">
+                    <p id="inner_task_text">This is some text within a card body.wery tasklooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooong</p>
+                </button>
                 <div class="btn-group" >
                     <button class="btn btn-secondary" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background:none; border:none;">
                         
@@ -107,8 +113,25 @@
                     </ul>
                 </div>
             </div>
-            
-            
+
+            <div class="card center" style="width:70vw; height:50px;">
+                <div class="card-body ">
+                    <input class="flex item-center" type="checkbox" id="scales" name="scales" style="display:inline-block" />
+                    <button class="overflow-hidden openfull" onclick="openNav(this.querySelector('#inner_task_text').innerText)" style="width:30vw;height:30px;display:inline-block; background:none; border:none;">
+                        <p id="inner_task_text">New text</p>
+                    </button>
+                    <div class="btn-group">
+                        <button class="btn btn-secondary" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background:none; border:none;">
+
+                            <i class="fa fa-bars" style="color:black"></i>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Add subtask</a></li>
+                            <li><a class="dropdown-item" href="#">Update</a></li>
+                            <li><a class="dropdown-item" href="#">Delete</a></li>
+                        </ul>
+                    </div>
+                </div>
         </div>
     </div>
 </div>

@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using RemoteWorkProductivityTracker.Areas.Identity.Data;
 
 namespace RemoteWorkProductivityTracker.Controllers
 {
@@ -8,5 +9,23 @@ namespace RemoteWorkProductivityTracker.Controllers
         {
             return View();
         }
+
+        public IActionResult Create (string Titile)
+        {
+            TrackerTask task = new TrackerTask();
+            task.Title = Titile;
+            Tasks
+            return View();
+        }
+
+        public IActionResult Update (int id)
+        {
+            return View();
+        }
+        public IActionResult Delete(int id)
+        {
+            return View();
+        }
+    
     }
 }
